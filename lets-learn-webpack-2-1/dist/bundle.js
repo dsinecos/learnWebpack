@@ -77,6 +77,8 @@ var _module = __webpack_require__(1);
 
 (0, _module.sup)();
 
+console.log("Webpack watch is working");
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {

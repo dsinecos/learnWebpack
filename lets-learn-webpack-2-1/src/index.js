@@ -5,3 +5,5 @@ import {hello, sup} from './js/module';
 
 hello();
 sup();
+
+console.log("Webpack watch is working");
