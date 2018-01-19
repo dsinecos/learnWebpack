@@ -1,4 +1,7 @@
 // import './css/main.css';
-import './scss/main.scss';
+// import './scss/main.scss';
 
-console.log("Hi from Webpack");
+import {hello, sup} from './js/module';
+
+hello();
+sup();
