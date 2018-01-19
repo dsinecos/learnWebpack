@@ -7,4 +7,4 @@ import {hello} from './js/hello';
 hello();
 sup();
 
-console.log("Webpack watch is working");
+console.log("Webpack watch is working Isn't it - Hot reloading ---....");
