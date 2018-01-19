@@ -1,5 +1,6 @@
 const path = require("path");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -38,6 +39,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('styles.css')
+        new ExtractTextPlugin('styles.css'),
+        new HTMLWebpackPlugin({
+             title: 'Multiple Bundles!'
+        })
     ]
 }
