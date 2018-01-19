@@ -70,17 +70,24 @@
 "use strict";
 
 
-var _module = __webpack_require__(1);
+__webpack_require__(1);
 
-(0, _module.hello)(); // import './css/main.css';
-// import './scss/main.scss';
+var _module = __webpack_require__(2);
 
+// import './css/main.css';
+(0, _module.hello)();
 (0, _module.sup)();
 
 console.log("Webpack watch is working");
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
